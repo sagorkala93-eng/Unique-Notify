@@ -34,8 +34,8 @@
 
 ### 🧠 One-line Install (from GitHub)
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/unique-notify/main/install.sh)
-````
+bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/Unique-Notify/main/install.sh)
+```
 
 ---
 
@@ -97,7 +97,7 @@ Time: 2025-11-10 15:42:23
 ### 🧹 One-line Uninstall
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/unique-notify/main/uninstall.sh)
+bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/Unique-Notify/main/uninstall.sh)
 ```
 
 ---
@@ -122,8 +122,8 @@ systemctl daemon-reload
 ### 🧪 Local Development
 
 ```bash
-git clone https://github.com/noyonmiahdev/unique-notify.git
-cd unique-notify
+git clone https://github.com/noyonmiahdev/Unique-Notify.git
+cd Unique-Notify
 ```
 
 Modify core files:
@@ -186,7 +186,7 @@ The `install.sh` script automatically:
 Usage:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/unique-notify/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/Unique-Notify/main/install.sh)
 ```
 
 ---
@@ -202,7 +202,7 @@ The `uninstall.sh` script automatically:
 Usage:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/unique-notify/main/uninstall.sh)
+bash <(curl -s https://raw.githubusercontent.com/noyonmiahdev/Unique-Notify/main/uninstall.sh)
 ```
 
 ---
@@ -235,8 +235,8 @@ MIT License © 2025 IT StarLab
 
 ## 📬 Support & Contribution
 
-**GitHub:** [https://github.com/yourusername/unique-notify](https://github.com/yourusername/unique-notify)
-**Email:** [support@yourdomain.com](mailto:support@yourdomain.com)
+**GitHub:** [https://github.com/noyonmiahdev/Unique-Notify](https://github.com/noyonmiahdev/Unique-Notify)
+**Issues:** [https://github.com/noyonmiahdev/Unique-Notify/issues](https://github.com/noyonmiahdev/Unique-Notify/issues)
 **Maintainer:** noyonmiahdev
 
 
