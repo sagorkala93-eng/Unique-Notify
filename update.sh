@@ -1,5 +1,5 @@
 #!/bin/bash
-# NotifyGuard / Unique Notify - Update Script
+# Unique Notify - Update Script
 # CloudLinux CPU Monitoring with Telegram Alerts for cPanel/WHM
 # 
 # Usage Method 1 (One-line update):
@@ -30,7 +30,7 @@ WHM_CGI_DIR="/usr/local/cpanel/whostmgr/docroot/cgi/uniquenotify"
 APPCONFIG_FILE="/var/cpanel/apps/uniquenotify.conf"
 
 echo -e "${BLUE}╔════════════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}║   NotifyGuard / Unique Notify - Updater        ║${NC}"
+echo -e "${BLUE}║        Unique Notify - Updater                 ║${NC}"
 echo -e "${BLUE}║   CloudLinux CPU Alert System for cPanel/WHM   ║${NC}"
 echo -e "${BLUE}╚════════════════════════════════════════════════╝${NC}"
 echo ""
@@ -43,13 +43,13 @@ fi
 
 echo -e "${GREEN}✓ Running as root${NC}"
 
-# Check if NotifyGuard is installed
+# Check if Unique Notify is installed
 if [ ! -f "$DAEMON_FILE" ]; then
-    echo -e "${RED}✗ Error: NotifyGuard is not installed. Please run install.sh first.${NC}"
+    echo -e "${RED}✗ Error: Unique Notify is not installed. Please run install.sh first.${NC}"
     exit 1
 fi
 
-echo -e "${GREEN}✓ NotifyGuard installation detected${NC}"
+echo -e "${GREEN}✓ Unique Notify installation detected${NC}"
 
 # Backup current configuration
 echo ""
@@ -171,5 +171,5 @@ echo -e "${BLUE}To access the plugin:${NC}"
 echo -e "  • Go to ${YELLOW}WHM → Plugins → Unique Notify${NC}"
 echo -e "  • Use the 'Test Telegram' button to verify your configuration"
 echo ""
-echo -e "${GREEN}Thank you for using NotifyGuard!${NC}"
+echo -e "${GREEN}Thank you for using Unique Notify!${NC}"
 echo ""

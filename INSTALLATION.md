@@ -1,8 +1,8 @@
-# NotifyGuard / Unique Notify - Installation Guide
+# Unique Notify - Installation Guide
 
 ## Overview
 
-NotifyGuard is a lightweight cPanel/WHM plugin that monitors CloudLinux LVE CPU usage and sends real-time Telegram alerts when users exceed configured thresholds.
+Unique Notify is a lightweight cPanel/WHM plugin that monitors CloudLinux LVE CPU usage and sends real-time Telegram alerts when users exceed configured thresholds.
 
 ## System Requirements
 
@@ -154,7 +154,7 @@ Use the "Test Telegram" button in the WHM interface, or manually test:
 ```bash
 curl -X POST https://api.telegram.org/bot<TOKEN>/sendMessage \
   -H "Content-Type: application/json" \
-  -d '{"chat_id":"<CHAT_ID>","text":"Test from NotifyGuard"}'
+  -d '{"chat_id":"<CHAT_ID>","text":"Test from Unique Notify"}'
 ```
 
 ## Troubleshooting
