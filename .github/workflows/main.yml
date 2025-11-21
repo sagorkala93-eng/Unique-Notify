@@ -1,1 +1,5 @@
-
+/usr/local/bin/uniquenotifyd.py               # Daemon service
+/var/cpanel/uniquenotify/config.json          # Config file
+/usr/local/cpanel/whostmgr/docroot/cgi/uniquenotify/index.php  # WHM UI
+/var/cpanel/apps/uniquenotify.conf            # WHM AppConfig
+/etc/systemd/system/uniquenotify.service      # Systemd service
