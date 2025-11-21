@@ -4,8 +4,8 @@
   "quiet_hours": "00:00-06:59",
   "telegram": {
     "enabled": true,
-    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
-    "chat_id": "YOUR_CHAT_ID"
+    "bot_token": "8501866882:AAFLjFY-x6svgvnvCeTlNx2_lSpmf91rFtg",
+    "chat_id": "8341318250"
   },
   "use_cloudlinux": true,
   "interval_seconds": 120,
