@@ -1,5 +1,10 @@
-/usr/local/bin/uniquenotifyd.py               # Daemon service
-/var/cpanel/uniquenotify/config.json          # Config file
-/usr/local/cpanel/whostmgr/docroot/cgi/uniquenotify/index.php  # WHM UI
-/var/cpanel/apps/uniquenotify.conf            # WHM AppConfig
-/etc/systemd/system/uniquenotify.service      # Systemd service
+# Run daemon manually
+python3 uniquenotifyd.py
+
+# Check for syntax errors
+python3 -m py_compile uniquenotifyd.py
+
+# Install and test as service
+sudo cp uniquenotifyd.py /usr/local/bin/
+sudo systemctl restart uniquenotify.service
+sudo journalctl -u uniquenotify.service -f
